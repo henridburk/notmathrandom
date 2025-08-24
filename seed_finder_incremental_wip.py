@@ -6,7 +6,7 @@ import traceback
 INDEX_NAME = "card_sequences_4d"  # Elasticsearch index name
 ES_HOST = "http://192.168.10.192:9200"  # Elasticsearch host
 ES_USER = "elastic"  # Elasticsearch username
-ES_PASSWORD = "Maarsseveen1!"  # Elasticsearch password
+ES_PASSWORD =   # Elasticsearch password
 
 # Logging Configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -118,3 +118,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
