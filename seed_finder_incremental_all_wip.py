@@ -5,7 +5,7 @@ import traceback
 # Configuration Variables
 ES_HOST = "http://192.168.10.192:9200"  # Elasticsearch host
 ES_USER = "elastic"  # Elasticsearch username
-ES_PASSWORD = "Maarsseveen1!"  # Elasticsearch password
+ES_PASSWORD =   # Elasticsearch password
 INDEX_PATTERN = "*"  # Use wildcard to match all indexes
 
 # Logging Configuration
@@ -118,3 +118,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
