@@ -4,7 +4,7 @@ from elasticsearch import Elasticsearch, exceptions
 # Configuration
 ES_HOST = "http://192.168.10.192:9200"
 ES_USER = "elastic"
-ES_PASS = "Maarsseveen1!"
+ES_PASS = ""
 
 # Logging Configuration
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -75,3 +75,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
