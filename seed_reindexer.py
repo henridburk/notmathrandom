@@ -13,7 +13,7 @@ def get_elasticsearch_client():
     """Create and return an Elasticsearch client."""
     return Elasticsearch(
         hosts=["http://192.168.10.192:9200"],
-        basic_auth=("elastic", "Maarsseveen1!"),
+        basic_auth=("elastic", ""),
         verify_certs=False,
         request_timeout=60
     )
@@ -106,3 +106,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
