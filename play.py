@@ -7,7 +7,7 @@ import logging
 MAX_PLAYERS = 4  # Number of players
 ES_HOST = "http://192.168.10.192:9200"
 ES_USER = "elastic"
-ES_PASS = "Maarsseveen1!"
+ES_PASS = 
 INDEX_NAME = "card_sequences_v3"
 
 
@@ -182,3 +182,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
